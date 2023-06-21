@@ -1,0 +1,15 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /miContextoWs
+    
+spring:
+  data:
+    jpa.repositories.enabled: true
+  datasource:
+    initialization-mode: always
+    driverClassName: org.postgresql.Driver
+    url: jdbc:postgresql://localhost:5432/mibdd
+    username: postgres
+    password: postgres
+    continueOnError: true
